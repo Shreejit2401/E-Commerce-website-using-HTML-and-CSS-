@@ -1,0 +1,147 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color: #252529;
+	margin:  0;
+	color: #ffffff;
+	line-height: 1.6;
+}
+a{
+	text-decoration: none;
+	color: #cccccc;
+}
+#showcase{
+	margin: 0;
+	padding: 0;
+	background: url('https://external-preview.redd.it/zs_5GAZVvnMyJUynnNM74hsr6JsNbN_aitcI1BkidK4.jpg?auto=webp&s=340fbd6cfd5f0c1a1149cdb4cd7054546460036d') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+#showcase.container{
+	margin-top: 25vh;
+}
+#showcase h1{
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+#showcase h2{
+	font-size: 2rem;
+}
+.sections h2{
+	font-family: cursive;
+}
+.sections{
+	text-align: center;
+	text-anchor: initial;
+}
+
+nav{
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	color: rgb(51,34,34);
+	position: fixed;
+	top:  0;
+	width: 100%;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+}
+nav a{
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: serif;
+	padding: 5px 0;
+	color: #eee;
+}
+nav li:hover{
+	background-color: #444444;
+	height: 45px;
+}
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+	font-size: 25px;
+	font-family: serif;
+  	border: none;
+  	outline: none;
+  	color: white;
+  	padding: 5px 15px;
+  	background-color: inherit;
+  	margin: 0;
+}
+
+.nav a:hover, .subnav:hover .subnavbtn {
+  	background-color: lightgoldenrodyellow;
+  	color: black;
+    border-color: black;
+}
+.subnav-content {
+  display: none;
+  border-color: black;
+  position: absolute;
+  left: 0;
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  z-index: 0.5;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: red;
+  color: floralwhite;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+.lead{
+	font-size: 1.3rem;
+}
+footer .footer{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 2rem;
+	text-align: center;
+	font-size: 14px;
+	overflow: hidden;
+}
+footer .footer ul{
+	list-style: none;
+}
+footer .footer ul li:first-child{
+	font-size: 1.2rem;
+	padding-bottom: 0.5rem;
+	border-bottom: #444 solid 1.5px;
+	margin-bottom: 1rem;
+}
+footer .Copyright{
+	background-color: #333;
+	padding: 1rem;
+	text-align: center;
+	overflow: hidden;
+}
